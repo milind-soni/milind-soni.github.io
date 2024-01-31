@@ -1,11 +1,10 @@
 ---
 layout: post
-title: >-
-  Prediction of Wheat Crop Yield in India: Leveraging Data Science and Satellite
-  Imagery
+title: Prediction of Wheat Crop Yield in India
 published: true
 ---
 
+Leveraging Data Science and Satellite Imagery
 
 ## Introduction
 
