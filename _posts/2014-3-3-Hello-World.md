@@ -11,8 +11,8 @@ published: true
 
 In a country like India, where agriculture forms the backbone of the economy, predicting crop yields accurately is not just a scientific pursuit but a necessity. With a focus on wheat – one of India's staple crops – our recent project leveraged the power of data science and satellite imagery to predict yields. This blog post delves into the intricate process of using harmonized satellite data from Sentinel, Landsat, MODIS, and ISRO's Bhuvan portal, combined with ground-level data, to create a robust multimodal model for wheat yield prediction.
 
+![img1.png]({{site.baseurl}}/_posts/img1.png)
 
-			<img src="{{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.18.09 PM.png">
 
 ## The Challenge
 
