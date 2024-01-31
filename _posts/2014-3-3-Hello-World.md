@@ -21,9 +21,14 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 ## Our Approach
 
+
+
 ### 1. Data Collection and Integration
 
 **Satellite Imagery**: We utilized harmonized data from Sentinel, Landsat, and MODIS satellites. This imagery provided us with high-resolution insights into the wheat-growing regions across India, allowing us to analyze vegetation health, moisture levels, and changes over time.
+
+![Screenshot 2024-01-31 at 6.22.39 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.22.39 PM.png)
+
 
 **Soil Data**: Leveraging the ISRO Bhuvan portal, we obtained detailed soil condition data. This included soil type, texture, moisture levels, and nutrient profiles, which are crucial for understanding the potential yield of a region.
 
