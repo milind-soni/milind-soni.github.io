@@ -11,6 +11,9 @@ published: true
 
 In a country like India, where agriculture forms the backbone of the economy, predicting crop yields accurately is not just a scientific pursuit but a necessity. With a focus on wheat – one of India's staple crops – our recent project leveraged the power of data science and satellite imagery to predict yields. This blog post delves into the intricate process of using harmonized satellite data from Sentinel, Landsat, MODIS, and ISRO's Bhuvan portal, combined with ground-level data, to create a robust multimodal model for wheat yield prediction.
 
+
+			![Screenshot 2024-01-31 at 6.18.09 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.18.09 PM.png)
+
 ## The Challenge
 
 Predicting agricultural yields, especially for a crop as vital as wheat, is complex. It involves understanding numerous variables - weather patterns, soil conditions, agricultural practices, and more. Traditionally, this prediction relied heavily on historical yield data and basic meteorological information. However, the advent of satellite technology and advanced data science techniques has revolutionized this field.
@@ -46,6 +49,20 @@ A critical aspect of our project was understanding the agricultural cycles in In
 ### 6. Anomaly Detection
 
 Using historical and current data, we developed methods to identify anomalies such as unexpected weather events or disease outbreaks. This added a layer of robustness to our predictions.
+
+### 7. Crop Spectral Signature and Identification using Phenology
+
+To enable precise crop identification and understand the phenology or growth signature of wheat, we developed comprehensive feature vectors using multiple parameters. These feature vectors were constructed by combining various datasets:
+
+- **Spectral Data**: Utilizing the spectral signatures captured in satellite imagery, we were able to identify specific characteristics of wheat crops, such as their reflection and absorption rates at different wavelengths.
+
+- **Temporal Data**: By analyzing changes in the satellite data over time, we could track the phenological stages of the wheat, such as germination, growth, and harvesting periods.
+
+- **Weather Parameters**: Incorporating weather data like temperature, precipitation, and humidity helped in understanding the environmental conditions affecting the wheat growth cycle.
+
+- **Soil Characteristics**: Data regarding soil moisture, nutrient levels, and texture were integrated to assess the health and suitability of the soil for wheat cultivation.
+
+These multi-dimensional feature vectors enabled us not only to identify wheat crops with high accuracy but also to monitor their growth stages and health. This data was pivotal in training our machine learning models to classify and predict wheat yields.
 
 ## Results and Implications
 
