@@ -26,15 +26,15 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 **Satellite Imagery**: We utilized harmonized data from Sentinel, Landsat, and MODIS satellites. This imagery provided us with high-resolution insights into the wheat-growing regions across India, allowing us to analyze vegetation health, moisture levels, and changes over time.
 
-![Screenshot 2024-01-31 at 6.49.22 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.49.22 PM.png)
+![Screenshot 2024-01-31 at 6.49.22 PM.png]({https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.49.22%20PM.png)
 
-
-![Screenshot 2024-01-31 at 6.22.39 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.22.39 PM.png)
+	
+![Screenshot 2024-01-31 at 6.22.39 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.22.39%E2%80%AFPM.png)
 
 
 **Soil Data**: Leveraging the ISRO Bhuvan portal, we obtained detailed soil condition data. This included soil type, texture, moisture levels, and nutrient profiles, which are crucial for understanding the potential yield of a region.
 
-![Screenshot 2024-01-31 at 6.48.32 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.48.32 PM.png)
+![Screenshot 2024-01-31 at 6.48.32 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.48.32%E2%80%AFPM.png)
 
 
 **Government Reports**: Annual yield reports released by the government for all districts in India were parsed. This data offered a solid foundation for understanding historical yields and trends.
@@ -43,7 +43,7 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 Using various data preprocessing techniques, we structured the gathered data for analysis. This involved cleaning, normalization, and segmentation to ensure the data was ready for model training.
 
-![Screenshot 2024-01-31 at 6.22.57 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.22.57 PM.png)
+![Screenshot 2024-01-31 at 6.22.57 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.22.57%E2%80%AFPM.png{{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.22.57 PM.png)
 
 
 ### 3. Multimodal Model Development
@@ -53,7 +53,7 @@ We adopted a multimodal approach, integrating various data sources to feed into 
 ### 4. Machine Learning Techniques
 
 **XGBoost**: One of the key models used was XGBoost (eXtreme Gradient Boosting), a decision-tree-based ensemble machine learning algorithm that uses a gradient boosting framework. It's particularly effective due to its ability to handle large datasets and its flexibility in modeling various aspects of the data.
-![Screenshot 2024-01-31 at 6.23.12 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.23.12 PM.png)
+![Screenshot 2024-01-31 at 6.23.12 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.23.12%E2%80%AFPM.png)
 
 
 **Segmentation Techniques**: We a customised version of the Facebook SAM segment anything model along with the YOLO V8 Image classification model to the satellite imagery to identify and categorize different land parcels and land cover.
@@ -63,7 +63,7 @@ We adopted a multimodal approach, integrating various data sources to feed into 
 
 A critical aspect of our project was understanding the agricultural cycles in India. By analyzing satellite data over time, we inferred key stages of wheat growth and development. This helped in aligning our predictions with the actual agricultural calendar.
 
-![Screenshot 2024-01-31 at 6.21.10 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.21.10 PM.png)
+![Screenshot 2024-01-31 at 6.21.10 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.21.10%E2%80%AFPM.png)
 
 
 ### 6. Anomaly Detection
@@ -85,7 +85,7 @@ To enable precise crop identification and understand the phenology or growth sig
 These multi-dimensional feature vectors enabled us not only to identify wheat crops with high accuracy but also to monitor their growth stages and health. This data was pivotal in training our machine learning models to classify and predict wheat yields.
 
 
-![Screenshot 2024-01-31 at 6.21.48 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.21.48 PM.png)
+![Screenshot 2024-01-31 at 6.21.48 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.21.48%E2%80%AFPM.png)
 
 ## Results and Implications
 
