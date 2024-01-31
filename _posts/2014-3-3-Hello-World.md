@@ -34,6 +34,7 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 **Soil Data**: Leveraging the ISRO Bhuvan portal, we obtained detailed soil condition data. This included soil type, texture, moisture levels, and nutrient profiles, which are crucial for understanding the potential yield of a region.
 
+![Screenshot 2024-01-31 at 6.48.32 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.48.32 PM.png)
 
 
 **Government Reports**: Annual yield reports released by the government for all districts in India were parsed. This data offered a solid foundation for understanding historical yields and trends.
@@ -42,6 +43,9 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 Using various data preprocessing techniques, we structured the gathered data for analysis. This involved cleaning, normalization, and segmentation to ensure the data was ready for model training.
 
+![Screenshot 2024-01-31 at 6.22.57 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.22.57 PM.png)
+
+
 ### 3. Multimodal Model Development
 
 We adopted a multimodal approach, integrating various data sources to feed into our predictive models. This approach allowed us to capture the complexity and variability of factors affecting wheat yield.
@@ -49,12 +53,18 @@ We adopted a multimodal approach, integrating various data sources to feed into 
 ### 4. Machine Learning Techniques
 
 **XGBoost**: One of the key models used was XGBoost (eXtreme Gradient Boosting), a decision-tree-based ensemble machine learning algorithm that uses a gradient boosting framework. It's particularly effective due to its ability to handle large datasets and its flexibility in modeling various aspects of the data.
+![Screenshot 2024-01-31 at 6.23.12 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.23.12 PM.png)
 
-**Segmentation Techniques**: We applied advanced segmentation techniques on satellite imagery to identify and categorize different land use patterns and stages of wheat growth.
+
+**Segmentation Techniques**: We a customised version of the Facebook SAM segment anything model along with the YOLO V8 Image classification model to the satellite imagery to identify and categorize different land parcels and land cover.
+
 
 ### 5. Understanding Agriculture Cycles
 
 A critical aspect of our project was understanding the agricultural cycles in India. By analyzing satellite data over time, we inferred key stages of wheat growth and development. This helped in aligning our predictions with the actual agricultural calendar.
+
+![Screenshot 2024-01-31 at 6.21.10 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.21.10 PM.png)
+
 
 ### 6. Anomaly Detection
 
@@ -73,6 +83,9 @@ To enable precise crop identification and understand the phenology or growth sig
 - **Soil Characteristics**: Data regarding soil moisture, nutrient levels, and texture were integrated to assess the health and suitability of the soil for wheat cultivation.
 
 These multi-dimensional feature vectors enabled us not only to identify wheat crops with high accuracy but also to monitor their growth stages and health. This data was pivotal in training our machine learning models to classify and predict wheat yields.
+
+
+![Screenshot 2024-01-31 at 6.21.48 PM.png]({{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.21.48 PM.png)
 
 ## Results and Implications
 
