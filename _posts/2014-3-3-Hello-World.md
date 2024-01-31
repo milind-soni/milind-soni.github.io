@@ -24,7 +24,7 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 **Satellite Imagery**: We utilized harmonized data from Sentinel, Landsat, and MODIS satellites. This imagery provided us with high-resolution insights into the wheat-growing regions across India, allowing us to analyze vegetation health, moisture levels, and changes over time.
 
-![Screenshot 2024-01-31 at 6.49.22 PM.png]({https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.49.22%20PM.png)
+![Screenshot 2024-01-31 at 6.49.22 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.49.22%20PM.png)
 
 	
 ![Screenshot 2024-01-31 at 6.22.39 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.22.39%E2%80%AFPM.png)
@@ -41,7 +41,7 @@ Predicting agricultural yields, especially for a crop as vital as wheat, is comp
 
 Using various data preprocessing techniques, we structured the gathered data for analysis. This involved cleaning, normalization, and segmentation to ensure the data was ready for model training.
 
-![Screenshot 2024-01-31 at 6.22.57 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.22.57%E2%80%AFPM.png{{site.baseurl}}/_posts/Screenshot 2024-01-31 at 6.22.57 PM.png)
+![Screenshot 2024-01-31 at 6.22.57 PM.png](https://raw.githubusercontent.com/milind-soni/milind-soni.github.io/master/_posts/Screenshot%202024-01-31%20at%206.22.57%E2%80%AFPM.png)
 
 
 ### 3. Multimodal Model Development
