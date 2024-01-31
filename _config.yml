@@ -44,10 +44,10 @@ google_analytics:
 url:
 
 # If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
+# ()
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "http://milind-soni.github.io/milind-soni.github.io"
 
 #
 # !! You don't need to change any of the configuration flags below !!
